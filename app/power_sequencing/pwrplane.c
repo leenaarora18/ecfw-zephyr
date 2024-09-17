@@ -820,7 +820,7 @@ static void power_off(void)
 }
 
 
-static int power_on(void)
+/*static int power_on(void)
 {
 	int ret;
 
@@ -923,7 +923,7 @@ static int power_on(void)
 	LOG_INF("%s new state %d", __func__, current_state);
 
 	return 0;
-}
+}*/
 
 static void suspend(void)
 {
