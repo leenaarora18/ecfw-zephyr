@@ -952,3 +952,4 @@ static int resume(void)
 	board_resume();
 	return ret;
 }
+
